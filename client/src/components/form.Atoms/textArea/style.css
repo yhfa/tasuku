@@ -1,0 +1,34 @@
+.textArea-Container {
+  position: relative;
+  max-width: 426px;
+  width: 100%;
+}
+.input__formG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.textArea-Container textarea {
+  background: #ffffff;
+  border: 1px solid #8692a6;
+  border-radius: 6px;
+  width: 100%;
+  padding: 1.5rem !important;
+  color: #494949;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  min-height: 64px;
+}
+.form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #696f79;
+}

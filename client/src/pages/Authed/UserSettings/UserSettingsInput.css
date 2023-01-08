@@ -1,0 +1,74 @@
+.User-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 14px;
+  color: black;
+  margin-bottom: 1px;
+}
+
+.User-input-Container {
+  position: relative;
+  max-width: 426px;
+  width: 100%;
+}
+
+.User-input-Container input,
+.User-input-Container select {
+  background: #ffffff;
+  border: 1px solid #8692a6;
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.5rem !important;
+  color: #494949;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 2px;
+  min-height: 10px;
+  margin-bottom: 1px;
+}
+
+.react-tag-input__input {
+  border: none !important;
+}
+
+.User-input-Container .react-tag-input__tag,
+.react-tag-input__tag__remove {
+  background: rgb(21, 101, 216) !important;
+  color: white;
+  padding: 5px;
+}
+
+.react-tag-input__tag__remove::before,
+.react-tag-input__tag__remove::after {
+  background-color: white !important;
+}
+
+.User-input-Container input::placeholder {
+  color: #494949 !important;
+}
+
+.User-input-Container button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: black;
+}
+
+.User__input__formG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+.User-input-error {
+  color: red;
+  font-size: 12px;
+}

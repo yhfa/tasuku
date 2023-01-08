@@ -1,0 +1,50 @@
+.nav__back__btn {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  width: 100%;
+}
+.nav__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end !important;
+  width: 100%;
+}
+.nav__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.dark__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+@media screen and (max-width: 450px) {
+  .nav__link {
+    justify-content: center;
+  }
+  .nav__info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

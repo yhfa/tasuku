@@ -1,0 +1,16 @@
+.submit__btn {
+  width: 100%;
+}
+.submit__btn button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  background: #ffcc33;
+  border-radius: 6px;
+  height: 40px;
+  max-width: 12rem;
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+.react-datepicker__input-container input {
+  &:hover {
+    max-width: 10rem !important;
+    border-radius: 8px;
+    background-color: #eaeaea;
+    padding: 0.5rem 0;
+    text-indent: 10px;
+    border: none;
+    outline: none;
+  }
+  &:active {
+    max-width: 10rem !important;
+    border-radius: 8px;
+    border: none;
+    background-color: #eaeaea;
+    padding: 0.5rem 0;
+    text-indent: 10px;
+    outline: none;
+  }
+  &:focus {
+    max-width: 10rem !important;
+    border-radius: 8px;
+    background-color: #eaeaea;
+    padding: 0.5rem 0;
+    text-indent: 10px;
+    border: none;
+    outline: none;
+  }
+  max-width: 10rem !important;
+  border-radius: 8px;
+  background-color: #eaeaea;
+  padding: 0.5rem 0;
+  text-indent: 10px;
+  border: none;
+  outline: none;
+}
